@@ -9,6 +9,12 @@ Click a notebook to open it in Google Colab. No sign-in to GitHub is needed.
 | **Python Essentials and NumPy** | Chunk 3 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_Day1.ipynb) |
 | **Data ETL with Pandas** | Chunk 3.5 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_Day1_ETL.ipynb) |
 
+## Homework
+
+| Assignment | Spec | Open notebook |
+| --- | --- | --- |
+| **HW1: Python, NumPy, and how Python holds data** | [HW1.md](HW1.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_HW1.ipynb) |
+
 ## Before you start
 
 1. **Save your own copy.** In Colab: *File → Save a copy in Drive*. Otherwise your work is lost when you close the tab.
