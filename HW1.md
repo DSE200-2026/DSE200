@@ -113,17 +113,17 @@ Now ask the same three questions of all four containers. The answers have to mat
 Measure two things for each of the four versions:
 
 - **Memory.** For A and B, use `pympler.asizeof` or write a small recursive sizer yourself. Plain `sys.getsizeof` on a list only counts the pointers, not the objects they point to, so it'll be off by 10x or more. For C use `arr.nbytes`. For D use `df.memory_usage(deep=True).sum()`.
-
-  Pympler isn't installed by default. In a notebook, put this in a cell and run it once:
-
-  ```python
-  %pip install pympler
-  from pympler import asizeof
-  asizeof.asizeof(rows)
-  ```
-
-  From a terminal it's just `pip install pympler`.
 - **Time.** How long each of your three questions took. Use `timeit` and run it several times. One run mostly measures noise.
+
+Pympler isn't installed by default. In a notebook, put this in a cell and run it once:
+
+```python
+!uv pip install --system pympler
+from pympler import asizeof
+asizeof.asizeof(rows)
+```
+
+From a terminal it's just `uv pip install pympler`.
 
 Put the numbers in a markdown table. Then answer these in markdown:
 
