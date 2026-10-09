@@ -39,6 +39,8 @@ Click a notebook to open it in Google Colab. No sign-in to GitHub is needed.
 | Notebook | Session | Open |
 | --- | --- | --- |
 | **Python Mastery, Matplotlib, Pandas, Regression** | Chunks 4.1–4.3 and 6 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_Day2.ipynb) |
+| **Beyond CSV: Parquet, Arrow, DuckDB, Iceberg** | Chunk 4.4 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_Day2_Formats.ipynb) |
+| **Fish weight dojo: linear regression in groups** | Data dojo | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/dojo.ipynb) |
 
 ## Before you start
 
