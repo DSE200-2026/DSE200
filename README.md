@@ -29,6 +29,7 @@ Click a notebook to open it in Google Colab. No sign-in to GitHub is needed.
 | --- | --- | --- |
 | **HW1: Python, NumPy, and how Python holds data** | [HW1.md](HW1.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_HW1.ipynb) |
 | **HW2: pandas, a complete pipeline, and your project dataset** | [HW2.md](HW2.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_HW2.ipynb) |
+| **HW3: Visualization, segments, and your first classifier** | [HW3.md](HW3.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_HW3.ipynb) |
 
 ## Before you start
 
