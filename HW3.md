@@ -4,7 +4,7 @@
 **Points:** 100
 **Work:** individual
 
-Three parts, one notebook. Part 1 is matplotlib and seaborn practice on a cars dataset we hand you. Parts 2 and 3 go back to the dataset you picked in HW2: Part 2 is visual EDA and one claim you prove is not luck, Part 3 is segments with KMeans and a classifier you learn to distrust. Everything you need was covered on Day 3. Everything goes in `DSE200_HW3.ipynb`.
+Three parts, one notebook. Part 1 is matplotlib and seaborn practice on a cars dataset we hand you. Parts 2 and 3 go back to the dataset you picked in HW2: Part 2 is visual EDA, Part 3 is segments with KMeans and a classifier.
 
 ## Getting the notebook
 
@@ -63,7 +63,7 @@ The title states the finding. "Fare by class" is a label. "Third class paid a se
 
 Pick one group difference, from 2.2 or a new one, and run the shuffle test from Day 3. The notebook gives you `shuffle_test(data, col, target)`. Then two sentences: the gap you found, and what share of shuffles matched it.
 
-0 to 1 percent means you found something. Over 5 percent means you haven't yet. Saying so plainly is a full-credit answer. Claiming a finding the shuffle test doesn't support is not.
+0 to 1 percent means you found something. Over 5 percent means you haven't yet.
 
 ## Part 3: Segments and a classifier (30 pts)
 
