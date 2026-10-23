@@ -11,6 +11,12 @@ The final project is the whole course on data you chose: find data, clean and jo
 
 The project is independent of the homework: its own rules, its own data, its own grade. Nothing from HW2 or HW3 is required, and homework work isn't credited here. The big difference from the homework is that you need **at least two datasets you can join**.
 
+**Reusing your HW2 dataset is allowed, not required.** A group works on one project, so if you reuse, the group picks **one** member's HW2 dataset; the others' datasets don't come along. Or start fresh with something new to all of you. Either way:
+
+- The reused dataset still needs a second dataset that joins with it (rule 1 below).
+- Say on your Part 1 data slide whose HW2 dataset it was.
+- Build on what you learned, but don't paste in homework cells: the project is graded on new work, and every member has to be able to explain every cell.
+
 ## The rules for your data
 
 1. **At least two datasets that join in a meaningful way.** Two tables from one source (orders and customers) or two sources that share a key (county-level health data and county-level census data). Joining must add something neither dataset has alone.
