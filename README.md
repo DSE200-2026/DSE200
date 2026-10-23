@@ -33,6 +33,13 @@ Click a notebook to open it in Google Colab. No sign-in to GitHub is needed.
 | **HW2: pandas, a complete pipeline, and your project dataset** | [HW2.md](HW2.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_HW2.ipynb) |
 | **HW3: Visualization, segments, and your first classifier** | [HW3.md](HW3.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_HW3.ipynb) |
 
+## Projects
+
+| Project | Spec | Open notebook |
+| --- | --- | --- |
+| **Mini Project: Starbucks offers** (groups, due Nov 12) | [MINIPROJECT.md](MINIPROJECT.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_MiniProject.ipynb) |
+| **Final Project** (groups; Part 1 proposal Nov 19, Part 2 Dec 3) | [PROJECT.md](PROJECT.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_FinalProject.ipynb) |
+
 ## Before you start
 
 1. **Save your own copy.** In Colab: *File → Save a copy in Drive*. Otherwise your work is lost when you close the tab.
