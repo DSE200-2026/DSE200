@@ -7,9 +7,9 @@
 
 The final project is the whole course on data you chose: find data, clean and join it, explore it, ask one to three questions it can answer, answer them with Python, and say honestly what the answer is worth. Expect 24 to 32 hours per person across both parts. Start early: finding data that actually supports a good question is most of the work, and it's normal to throw away two or three datasets before you find one.
 
-## How this relates to HW2 and HW3
+## The project and the homework
 
-The homework gave you practice on one Kaggle CSV. **The project has different rules**, listed below; the big one is that you need **at least two datasets you can join**. Your HW2 dataset can be one of them if it fits the rules, and your HW3 work on it carries over. You can also start fresh.
+The project is independent of the homework: its own rules, its own data, its own grade. Nothing from HW2 or HW3 is required, and homework work isn't credited here. The big difference from the homework is that you need **at least two datasets you can join**.
 
 ## The rules for your data
 

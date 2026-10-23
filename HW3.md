@@ -41,7 +41,7 @@ Six sections on about 5,000 cars from model years 2009 to 2012. Each question ha
 
 You don't need to explain your approach unless a question asks for it. Both the code and the answer have to be right for full marks.
 
-## Part 2: Visual EDA on your project dataset (21 pts)
+## Part 2: Visual EDA on your dataset (21 pts)
 
 Same dataset as HW2 Parts 4 and 5. If you've switched since then, say so in 2.1 and say why.
 
