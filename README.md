@@ -37,8 +37,8 @@ Click a notebook to open it in Google Colab. No sign-in to GitHub is needed.
 
 | Project | Spec | Open notebook |
 | --- | --- | --- |
-| **Mini Project: Starbucks offers** (groups, due Nov 12) | [MINIPROJECT.md](MINIPROJECT.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_MiniProject.ipynb) |
-| **Final Project** (groups; Part 1 proposal Nov 19, Part 2 Dec 3) | [PROJECT.md](PROJECT.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_FinalProject.ipynb) |
+| **Mini Project: Starbucks offers** (groups, due Nov 5, presented Nov 6) | [MINIPROJECT.md](MINIPROJECT.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_MiniProject.ipynb) |
+| **Final Project** (groups; Part 1 due Nov 5, presented Nov 6; Part 2 due in class Nov 20) | [PROJECT.md](PROJECT.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_FinalProject.ipynb) |
 
 ## Before you start
 

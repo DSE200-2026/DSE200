@@ -1,6 +1,6 @@
 # Mini Project: Starbucks Offers
 
-**Due:** Thursday, November 12, 11:59 PM on Gradescope, presentations in class
+**Due:** Thursday, November 5, 11:59 PM on Gradescope; presentations in class Friday, November 6
 **Points:** 100
 **Work:** groups of 2 or 3, one submission per group
 

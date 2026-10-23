@@ -1,7 +1,7 @@
 # Final Project
 
-**Part 1, proposal:** Thursday, November 19, presented in class, slides on Gradescope by 11:59 PM the night before
-**Part 2, analysis:** Thursday, December 3, 11:59 PM on Gradescope
+**Part 1, proposal:** Thursday, November 5, 11:59 PM on Gradescope; presentations in class Friday, November 6
+**Part 2, analysis:** due in class Friday, November 20; notebook and data files on Gradescope by 11:59 PM that day
 **Points:** 100 (Part 1: 20, Part 2: 80)
 **Work:** groups of 2 or 3, one submission per group
 
@@ -28,7 +28,7 @@ Where to look: Kaggle (https://www.kaggle.com/datasets), UCI (https://archive.ic
 
 ## Part 1: Proposal (20 pts)
 
-**Five minutes in class, three slides.** The point is to find out now, not in December, whether your data can answer your question.
+**Five minutes in class, three slides.** The point is to find out now, two weeks before the analysis is due, whether your data can answer your question.
 
 1. **Data (slide 1).** Your datasets, their sources and licenses, what one row is in each, and the key that joins them. Show that the join works: rows before, rows after, how many failed to match.
 2. **What you found (slide 2).** Your first exploration with pandas and matplotlib: one or two figures and the two or three facts that matter most, including what's broken or missing.
@@ -40,7 +40,7 @@ A good question is narrow enough to answer and broad enough to care about:
 - **Too broad:** "What causes global poverty?" That's a dissertation, and no dataset settles it.
 - **Good:** "Do movies whose reviews skew positive in the first week earn more at the box office, after accounting for budget?" Answerable with reviews joined to box-office data, and someone would care about the answer.
 
-Upload the slides as a PDF to Gradescope by 11:59 PM the night before, so we can run them from one laptop.
+Upload the slides as a PDF to Gradescope by 11:59 PM on Thursday, November 5, so we can run them from one laptop in class on Friday.
 
 ### Part 1 grading
 
