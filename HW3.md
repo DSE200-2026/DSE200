@@ -41,17 +41,17 @@ Six sections on about 5,000 cars from model years 2009 to 2012. Each question ha
 
 You don't need to explain your approach unless a question asks for it. Both the code and the answer have to be right for full marks.
 
-## Part 2: Visual EDA on your project dataset (25 pts)
+## Part 2: Visual EDA on your project dataset (21 pts)
 
 Same dataset as HW2 Parts 4 and 5. If you've switched since then, say so in 2.1 and say why.
 
-### 2.1 The first five minutes (5 pts)
+### 2.1 The first five minutes (6 pts)
 
 Shape, dtypes, missing values per column **and per row**, and `describe()`. Reuse your `load_clean` from HW2 if you have it. Then one sentence: the one thing in that output you'd have gotten wrong if you had skipped it.
 
-### 2.2 Three figures whose title is the finding (12 pts)
+### 2.2 Three figures whose title is the finding (15 pts)
 
-Three figures, 4 points each:
+Three figures, 5 points each:
 
 1. Your target column. Print the mean and the median and say which you'd report.
 2. A numeric feature against the target.
@@ -59,41 +59,27 @@ Three figures, 4 points each:
 
 The title states the finding. "Fare by class" is a label. "Third class paid a seventh of the first class fare" is a finding. Bars sorted, value axes start at zero, units in the axis labels. One sentence under each: what it shows and why it matters for your prediction task.
 
-### 2.3 Not luck (8 pts)
+## Part 3: Segments and a classifier (34 pts)
 
-Pick one group difference, from 2.2 or a new one, and run the shuffle test from Day 3. The notebook gives you `shuffle_test(data, col, target)`. Then two sentences: the gap you found, and what share of shuffles matched it.
+### 3.1 Segments with KMeans (12 pts)
 
-0 to 1 percent means you found something. Over 5 percent means you haven't yet.
-
-## Part 3: Segments and a classifier (30 pts)
-
-### 3.1 Segments with KMeans (10 pts)
-
-1. Pick 2 to 4 numeric columns, scale them with `StandardScaler`, and plot inertia for k = 2 to 8 (3 pts).
+1. Pick 2 to 4 numeric columns, scale them with `StandardScaler`, and plot inertia for k = 2 to 8 (4 pts).
 2. Pick k and fit `KMeans(n_clusters=k, random_state=42, n_init=10)`. Show a `groupby` table: rows per segment, the median of each clustering column, and the mean of your target (4 pts).
-3. Name each segment in one sentence a colleague would recognise (3 pts). If you can't, say so and why. Arithmetic you can't name is not a finding.
+3. Name each segment in one sentence a colleague would recognise (4 pts). If you can't, say so and why. Arithmetic you can't name is not a finding.
 
 Forget to scale and the column with the biggest numbers decides everything. Day 3 section 6.8 showed what that looks like.
 
-### 3.2 A classifier (15 pts)
+### 3.2 A classifier (22 pts)
 
 HW2 predicted a number. Now predict a yes or a no.
 
-- **The label (3 pts).** A binary column already in your data, or one you make from your HW2 target with a threshold you can defend: "price above the median", "delay over 15 minutes". Say what 1 means and what share of rows are 1. If you built the label from your target, drop the target from the features. It is the answer.
-- **Split (2 pts).** `train_test_split(X, y, test_size=0.2, random_state=0, stratify=y)`.
-- **Baseline (2 pts).** `DummyClassifier(strategy="most_frequent")`, accuracy on the test set.
-- **Two models (5 pts).** `LogisticRegression(max_iter=1000)` and `DecisionTreeClassifier(max_depth=4, random_state=0)`. For each, test accuracy and **positives missed** (actual 1, predicted 0), from `confusion_matrix(...).ravel()`. One table with the baseline and both models.
-- **Overfitting (3 pts).** Train and test accuracy for an unlimited tree (`max_depth=None`).
+- **The label (4 pts).** A binary column already in your data, or one you make from your HW2 target with a threshold you can defend: "price above the median", "delay over 15 minutes". Say what 1 means and what share of rows are 1. If you built the label from your target, drop the target from the features. It is the answer.
+- **Split (3 pts).** `train_test_split(X, y, test_size=0.2, random_state=0, stratify=y)`.
+- **Baseline (3 pts).** `DummyClassifier(strategy="most_frequent")`, accuracy on the test set.
+- **Two models (8 pts).** `LogisticRegression(max_iter=1000)` and `DecisionTreeClassifier(max_depth=4, random_state=0)`. For each, test accuracy and **positives missed** (actual 1, predicted 0), from `confusion_matrix(...).ravel()`. One table with the baseline and both models.
+- **Overfitting (4 pts).** Train and test accuracy for an unlimited tree (`max_depth=None`).
 
-### 3.3 What the numbers hide (5 pts)
-
-Three short paragraphs:
-
-1. Which model you'd carry forward, with the evidence in positives missed, not only accuracy.
-2. The train and test gap for the unlimited tree, and what it means.
-3. Do the logistic regression coefficients agree with what you found in Part 2? Coefficients are per unit of each feature, so compare signs, not sizes, unless you scaled.
-
-A model that barely beats the baseline is not a failed assignment if you can say why. One that beats it by a suspicious margin usually has a leak. Find it.
+A model that barely beats the baseline is not a failed assignment. One that beats it by a suspicious margin usually has a leak. Find it.
 
 ## What to submit
 
@@ -114,9 +100,7 @@ Don't submit `cars.csv`.
 | Part 1: Subplots | 10 |
 | Part 1: Heatmap | 8 |
 | Part 1: Pair plot and reading | 5 |
-| Part 2: First five minutes | 5 |
-| Part 2: Three figures with finding titles | 12 |
-| Part 2: Shuffle test and the two sentences | 8 |
-| Part 3: Segments, table, and names | 10 |
-| Part 3: Label, split, baseline, two models, overfitting | 15 |
-| Part 3: Three paragraphs | 5 |
+| Part 2: First five minutes | 6 |
+| Part 2: Three figures with finding titles | 15 |
+| Part 3: Segments, table, and names | 12 |
+| Part 3: Label, split, baseline, two models, overfitting | 22 |
