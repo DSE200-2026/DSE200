@@ -25,6 +25,15 @@ Click a notebook to open it in Google Colab. No sign-in to GitHub is needed.
 | **Feature Engineering and Class Imbalance** | Sections 8 and 9 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_Day3_Features.ipynb) |
 | **Fraud challenge at Silverleaf National Bank** | Team challenge: imbalance and features | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_Day3_Fraud.ipynb) |
 
+## Day 4
+
+| Notebook | Session | Open |
+| --- | --- | --- |
+| **Gradient Boosting** | Chunk 8, sections 8.1–8.10 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_Day4_Boosting.ipynb) |
+| **Three Ways To Get A Model: XGBoost, AutoGluon, TabPFN** | Chunk 9, sections 9.1–9.5 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_Day4_ThreeWays.ipynb) |
+| **Interpretability: asking a model why** | Sections 10.1–10.5 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_Day4_Interpretability.ipynb) |
+| **Models In Production: MLflow, drift, evals** | Sections 11.1–11.4 and the DOJO | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_Day4_Production.ipynb) |
+
 ## Homework
 
 | Assignment | Spec | Open notebook |
@@ -32,6 +41,7 @@ Click a notebook to open it in Google Colab. No sign-in to GitHub is needed.
 | **HW1: Python, NumPy, and how Python holds data** | [HW1.md](HW1.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_HW1.ipynb) |
 | **HW2: pandas, a complete pipeline, and your project dataset** | [HW2.md](HW2.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_HW2.ipynb) |
 | **HW3: Visualization, segments, and your first classifier** | [HW3.md](HW3.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_HW3.ipynb) |
+| **HW4: One new model on the fraud data** (due Nov 12) | [HW4.md](HW4.md) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSE200-2026/DSE200/blob/main/DSE200_HW4.ipynb) |
 
 ## Projects
 
@@ -43,7 +53,7 @@ Click a notebook to open it in Google Colab. No sign-in to GitHub is needed.
 ## Before you start
 
 1. **Save your own copy.** In Colab: *File → Save a copy in Drive*. Otherwise your work is lost when you close the tab.
-2. **Run the SETUP cell first.** It downloads the data (`temperatures.csv` on Day 1, the MovieLens files on Day 2, `customers.csv`, the feature engineering files, and the fraud data on Day 3) from this repository for you.
+2. **Run the SETUP cell first.** It downloads the data (`temperatures.csv` on Day 1, the MovieLens files on Day 2, `customers.csv`, the feature engineering files, the fraud data on Day 3, and `minute_weather.csv.gz` on Day 4) from this repository for you.
 3. **Lost?** *Runtime → Run all*. Every section rebuilds its own data, so any section works from cold.
 
 ## How the cells work
