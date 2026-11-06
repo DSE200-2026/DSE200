@@ -4,7 +4,7 @@
 **Points:** 100 (+5 bonus)
 **Work:** individual
 
-One notebook, four short parts. You take the Day 3 fraud data, which you already know, and fit one of the Day 4 models, XGBoost, on it. The features, the split and a baseline are built for you in the setup cell, so the work is the Day 4 part: fit it honestly, turn it into dollars, ask it why, and say what more modelling could and couldn't buy. Plan on two to three hours; the project is the big job these two weeks.
+One notebook, four short parts. You take the Day 3 fraud data, which you already know, and fit one of the Day 4 models, XGBoost, on it. The features, the split and a baseline are built for you in the setup cell, so the work is the Day 4 part: fit it honestly, turn it into dollars, ask it why, and say what more modelling could and couldn't buy. This homework should take much less time; the project is the big job these two weeks.
 
 ## Getting the notebook
 
